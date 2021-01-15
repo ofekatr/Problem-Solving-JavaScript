@@ -1,0 +1,23 @@
+{
+  "name": "problem-solving",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofekatr/Problem-Solving-JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ofekatr/Problem-Solving-JavaScript/issues"
+  },
+  "homepage": "https://github.com/ofekatr/Problem-Solving-JavaScript#readme",
+  "description": "",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
