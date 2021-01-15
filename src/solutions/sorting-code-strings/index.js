@@ -41,3 +41,5 @@ const sortCodes = (codesArr) => {
   // Join the numeric strings array back to a concatenated string.
   return codesArr.map((code) => code.join("."));
 };
+
+export default sortCodes;

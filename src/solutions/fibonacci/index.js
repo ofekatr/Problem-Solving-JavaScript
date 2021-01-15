@@ -25,3 +25,5 @@ const fibonacci = (i_Num) => {
 
   return rec(i_Num);
 };
+
+export default fibonacci;
