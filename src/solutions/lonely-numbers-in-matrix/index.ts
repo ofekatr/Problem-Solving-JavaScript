@@ -1,4 +1,3 @@
-// 🔥🍑
 const checkIfLonely = (matrix: number[][], i: number, j: number) => {
     let left = Math.max(0, j - 1);
     let right = Math.min(matrix[i].length - 1, j + 1);
@@ -11,7 +10,7 @@ const checkIfLonely = (matrix: number[][], i: number, j: number) => {
     }
     return true;
 }
-// 😏
+
 const countLonelyNumbers = (matrix: number[][]) => {
     let resultCounter = 0;
 
