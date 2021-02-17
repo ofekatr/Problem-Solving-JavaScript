@@ -1,9 +1,10 @@
-// import bfs from "./binary-tree-bfs";
+import { abSort } from "./a-b-sort";
+import _ from "lodash";
 
-// const node5 = { right: undefined, left: undefined, value: 5 };
-// const node4 = { right: node5, left: undefined, value: 4 };
-// const node3 = { right: undefined, left: undefined, value: 3 };
-// const node2 = { right: undefined, left: node4, value: 2 };
-// const node1 = { right: node2, left: node3, value: 1 };
+const testArr = _.shuffle([-100, -50, -3, -90, 9, 12, 14, 13, 20, 21, 22, 23]);
+const a = 8;
+const b = 16;
 
-// bfs(node1);
+abSort(testArr, a, b);
+
+console.log(testArr);
