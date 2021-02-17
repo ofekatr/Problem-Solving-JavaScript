@@ -1,8 +1,8 @@
 const checkIfLonely = (matrix: number[][], i: number, j: number) => {
-    let left = Math.max(0, j - 1);
-    let right = Math.min(matrix[i].length - 1, j + 1);
-    let top = Math.max(0, i - 1);
-    let bottom = Math.min(matrix.length, i + 1);
+    const left = Math.max(0, j - 1);
+    const right = Math.min(matrix[i].length - 1, j + 1);
+    const top = Math.max(0, i - 1);
+    const bottom = Math.min(matrix.length, i + 1);
     for (let m = top; m <= bottom; m++) {
         for (let n = left; n <= right; n++) {
             if (matrix[m][n] !== 0 && !(m === i && n === j)) { return false; }
