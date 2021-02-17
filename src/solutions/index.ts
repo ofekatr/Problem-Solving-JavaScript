@@ -1,10 +1,11 @@
-import { abSort } from "./a-b-sort";
-import _ from "lodash";
+import { countLonelyNumbers } from "./lonely-numbers-in-matrix";
 
-const testArr = _.shuffle([-100, -50, -3, -90, 9, 12, 14, 13, 20, 21, 22, 23]);
-const a = 8;
-const b = 16;
+const testArr = [
+    [0, 0, 0, 0],
+    [0, 1, 0, 5],
+    [0, 0, 0, 0],
+];
 
-abSort(testArr, a, b);
+const result = countLonelyNumbers(testArr);
 
-console.log(testArr);
+console.log(result);
